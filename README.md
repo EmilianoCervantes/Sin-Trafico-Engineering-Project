@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# engineering-project
+Engineering Project
 
-## Available Scripts
+## Aplicación de Rastreo
 
-In the project directory, you can run:
+El objetivo es construir una applicación web donde se administre una flotilla de vehiculos y se pueda ver su posición.
+Cada vehiculo tiene los siguientes datos:
 
-### `yarn start`
+1. Id de Vehiculo
+2. Placas
+3. Ultima posición conocida (lat,lon)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Requerimientos
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. Construir un API HTTP Rest con  en la que se pueda 
+ - Insertar un vehiculo.
+ - Actualizar un vehiculo.
+ - Borrar cada Vehículo.
+2. La aplicación web y el API deben de contar con autenticación de usuario. (Con nombre de usuario y contraseña es suficiente)
+3. La Aplicación web debe de contar con una sola vista, en esta vista debe haber un mapa en donde se muestren los vehiculos de cada usuario.
+4. Cada Usuario solo debe de poder interactuar con los vehiculos creados por él mismo.
 
-### `yarn test`
+## Instrucciones
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Crea un repositorio publico en tu cuenta de github.
+2. Proveer instrucciones para instalar y levantar en ambiente local la APP.
+3. Proveer ejemplos con CURL  para Insertar, actualizar y borrar cada vehículo.
 
-### `yarn build`
+ - Te recomendamos que uses Flask o Django para hacer tu app, para el mapa es recomendable usar leaflet o mapbox. 
+ - Bonus points si agregas Unit Tests. 
+ - Bonus points si levantas esta API en un servicio como Amazon Web Services o Google Cloud o Heroku. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La evaluación tendra la siguiente forma:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Back End: 35%
+2. Front End: 35%
+3. Estructura y legilibilidad del código, incluyendo el uso de buenas prácticas: 30%
+4. Bonus points: 20% extra (10% unit tests, 10% deployment en la nube).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Suerte! 
