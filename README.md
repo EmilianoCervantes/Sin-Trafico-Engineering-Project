@@ -38,3 +38,16 @@ La evaluación tendra la siguiente forma:
 4. Bonus points: 20% extra (10% unit tests, 10% deployment en la nube).
 
 Suerte! 
+
+
+# Instalaciones
+
+## Dependencias instaladas por terminal:
+1. yarn add react-router-dom
+2. yarn add axios
+3. yarn add history
+4. yarn add amazon-cognito-identity-js
+4. yarn add react-google-maps
+
+## Dependencias por cdn/ script externo en el index.html
+1. Sweet Alert 2.9 [x]
