@@ -68,7 +68,7 @@ const Home = () => {
 
               {/* MAPA */}
               {
-                latVevhiculo && longVehiculo && (
+                lat && long && (
                   <Map
                     googleMapURL= "https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBHMOKiJFGjvU-YcnYukq_dhvbAPB665DA"
                     containerElement={<div style={{ height: '400px' }} />}
