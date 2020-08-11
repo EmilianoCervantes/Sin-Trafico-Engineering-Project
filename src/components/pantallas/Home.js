@@ -74,8 +74,8 @@ const Home = () => {
                     containerElement={<div style={{ height: '400px' }} />}
                     mapElement={<div style={{ height: '100%' }} />}
                     loadingElement={<p>Cargando mapa...</p>}
-                    lat={latVevhiculo}
-                    lng={longVehiculo}
+                    lat={lat}
+                    lng={long}
                   />
                 )
               }
