@@ -11,8 +11,8 @@ import history from '../navegacion';
 import { home } from '../acciones/pantallasNombres';
 
 const poolData = {
-  UserPoolId: 'us-east-1_jVsiWwlHG', // Your user pool id here
-  ClientId: '113i7gofjf3dssacpkjlng8cd6', // Your client id here
+  UserPoolId: 'us-east-1_jVsiWwlHG', // Poner el user pool id
+  ClientId: '113i7gofjf3dssacpkjlng8cd6', // Poner el client id
 };
 const userPool = new CognitoUserPool(poolData);
 
