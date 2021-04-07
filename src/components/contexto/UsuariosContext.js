@@ -187,7 +187,7 @@ const lastLocation = dispatch => {
 const logoutUsuario = dispatch => {
   return async () => {
     const currentUser = await userPool.getCurrentUser();
-    currentUser.signOut();
+    if (currentUser) currentUser.signOut();
 
     window.localStorage.clear();
     dispatch({ type: USER_SIGNOUT });
