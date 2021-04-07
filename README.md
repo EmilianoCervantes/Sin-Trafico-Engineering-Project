@@ -21,6 +21,7 @@ Cada vehiculo tiene los siguientes datos:
 4. Cada Usuario solo debe de poder interactuar con los vehiculos creados por él mismo.
 
 # Instalaciones
+- Emplear ```yarn```
 
 ## Dependencias instaladas por terminal:
 1. yarn add react-router-dom
