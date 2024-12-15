@@ -1,9 +1,12 @@
-# engineering-project
-Engineering Project
+# AWS PROJECT
 
-## Aplicación de Rastreo
+## English overview
 
-El objetivo es construir una applicación web donde se administre una flotilla de vehiculos y se pueda ver su posición.
+Web app developed with React.js and AWS (Cognito, Api Gateway, Lambda, and DynamoDB) for saving the last location of a user’s car. User accounts are via Cognito. They register the last location of their car (saved as lat & long), stored in DynamoDB. The coordinates are interpreted and displayed with the Google Map’s API.
+
+## Overview en español
+
+El objetivo es construir una applicación web de rastreo donde se administre una flotilla de vehiculos y se pueda ver su posición.
 Cada vehiculo tiene los siguientes datos:
 
 1. Id de Vehiculo
